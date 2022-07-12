@@ -1,0 +1,56 @@
+.cor-menu {
+    background-color: #effa75;
+    width: 100%;
+    padding: 5px;
+}
+
+.menu img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.icones {
+    display: inline;
+    margin-left: 600px;
+}
+
+.fotos-menu{
+    height: 100%;
+    width: 100%;
+}
+
+.icones-ft{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.icones-ft a{
+    width: 100%;  
+    height: 300px;  
+    object-fit: cover;  
+    object-position: bottom;
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: bottom;
+    }
+  }
+
+.text {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .text {
+      font-size: 14px;
+    }
+  }

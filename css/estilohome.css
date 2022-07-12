@@ -1,0 +1,67 @@
+.cor-menu {
+    background-color: #effa75;
+    width: 100%;
+    padding: 5px;
+}
+
+.menu img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.icones {
+    display: inline;
+    margin-left: 600px;
+}
+
+.menu-urls{
+  border-bottom: 3px solid #ed8c24;
+}
+
+.busca{
+  display: inline;
+  margin-left: 450px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.busca input{
+    height:20px;
+    padding: 7px;
+    border: 1px solid black;
+}
+
+.menu-principal h1{
+    display: inline;
+    padding: 20px;
+}
+
+.links-menu{
+    display: inline;
+    float: left;
+}
+.links-menu a{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.background {
+    height: 500px;
+    background-image: url(../img/emotions-3419025_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .text {
+      font-size: 14px;
+    }
+  }
